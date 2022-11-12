@@ -1,0 +1,78 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+
+    font-size: 62.5%;
+    }
+    body{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'League Spartan', sans-serif;
+        font-size: 1.6rem;
+    }
+    #container{
+        display: grid;
+        grid-template-columns: 50% 50%;  
+        color: var(--text-color);
+    }
+    .contents, .image{
+        height: 100vh;
+        
+    }
+    .contents{
+        background: var(--body-bg-color);
+        padding-left: 30px;
+    }
+    .contents h1{
+        color: var(--title-color);
+        margin-top: 9.2rem;
+        font-weight: 700;
+    }
+    .contents span{
+        font-weight: 500;
+    }
+    .contents p{
+        font-weight: 400;
+    }
+    .contents a{
+        display: flex;
+        align-items: center;
+        margin-top: 10rem;
+        color: var(--bg-button-color);
+    }
+    .contents img{
+        padding: .9rem;
+    }
+
+    .contents .informations{
+        position: relative;
+        margin-top: 5.0rem;
+    }
+    .contents .informations span{
+        color: var(--form-color);
+    }
+    .contents .informations img{
+        background-color: var(--bg-button-color);
+        padding: .9rem;
+    }
+    .contents .informations .photo{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        margin-top: 1.7rem;
+
+    }
+    .contents .informations input{
+        border: none;
+        height: 4rem;
+        width:80rem;
+    }
+    .image{
+        background: url(./images/read_news.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
